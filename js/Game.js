@@ -1,5 +1,6 @@
 var Game=function()
 {
+   //oyunu oynadıgımız alanı id üzerinden çekiyor.
   var canvas=document.getElementById("id-canvas")
   var ctx=canvas.getContext('2d')
   var g={
