@@ -8,6 +8,7 @@ var Enemy=function()
     kill:1,
     image:"image/img1.png",
     state:1,
+    //hasar durumuna göre farklı resimler gösteriyor.
     stateimg:["image/img1.png","image/img2.png","image/img3.png","image/img4.png"],
     boom:function()
     {
