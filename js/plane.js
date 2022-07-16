@@ -12,6 +12,7 @@ var Plane=function()
       if(this.x>=0)
       this.x-=10
     },
+    //eğer hareket kanvas içerisindeyse konum değiştiriyor
     moveright:function()
     {
       if(this.x+this.w<401)
