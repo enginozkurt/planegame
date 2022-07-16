@@ -51,6 +51,7 @@ var Game=function()
         g.update()
         g.draw()
       },1000/30)
+      //belli aralıklarla yeni düşman üretiyor
       var s2=setInterval(function(){
         g.newEnemy();
       }, 800)
