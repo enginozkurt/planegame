@@ -14,6 +14,7 @@ var Game=function()
   }
   g.canvas=canvas;
   g.ctx=ctx;
+  //basılan tuşları dinlemek için bir listener nesnesi oluşturuyor
   window.addEventListener('keydown',function(event){
     // console.log(event)
     g.keydown[event.key]=true
