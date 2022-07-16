@@ -1,5 +1,6 @@
 var Plane=function()
 {
+  //ucak oluşturarak basılan tuşa göre konumu değiştiriyor
   var o={
     x:200,
     y:600,

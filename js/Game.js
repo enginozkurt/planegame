@@ -1,5 +1,6 @@
 var Game=function()
 {
+   //oyunu oynadıgımız alanı id üzerinden çekiyor.
   var canvas=document.getElementById("id-canvas")
   var ctx=canvas.getContext('2d')
   var g={
@@ -13,6 +14,7 @@ var Game=function()
   }
   g.canvas=canvas;
   g.ctx=ctx;
+  //basılan tuşları dinlemek için bir listener nesnesi oluşturuyor
   window.addEventListener('keydown',function(event){
     // console.log(event)
     g.keydown[event.key]=true
